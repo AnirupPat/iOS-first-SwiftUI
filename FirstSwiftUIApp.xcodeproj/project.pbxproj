@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B572101238475A700BA6067 /* FifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B572100238475A700BA6067 /* FifthView.swift */; };
 		2BDA5689237EA46C00A334EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA5688237EA46C00A334EB /* AppDelegate.swift */; };
 		2BDA568B237EA46C00A334EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA568A237EA46C00A334EB /* SceneDelegate.swift */; };
 		2BDA568D237EA46C00A334EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA568C237EA46C00A334EB /* ContentView.swift */; };
 		2BDA568F237EA46D00A334EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA568E237EA46D00A334EB /* Assets.xcassets */; };
 		2BDA5692237EA46D00A334EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA5691237EA46D00A334EB /* Preview Assets.xcassets */; };
 		2BDA5695237EA46D00A334EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA5693237EA46D00A334EB /* LaunchScreen.storyboard */; };
+		2BDDDC12238333D100BC71F3 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDDC11238333D100BC71F3 /* SecondView.swift */; };
+		2BDDDC142383FED800BC71F3 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDDC132383FED800BC71F3 /* ThirdView.swift */; };
+		2BDDDC162384044800BC71F3 /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDDC152384044800BC71F3 /* FourthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B572100238475A700BA6067 /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
 		2BDA5685237EA46C00A334EB /* FirstSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDA5688237EA46C00A334EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BDA568A237EA46C00A334EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		2BDA5691237EA46D00A334EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2BDA5694237EA46D00A334EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BDA5696237EA46D00A334EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDDDC11238333D100BC71F3 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		2BDDDC132383FED800BC71F3 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		2BDDDC152384044800BC71F3 /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			children = (
 				2BDA5688237EA46C00A334EB /* AppDelegate.swift */,
 				2BDA568A237EA46C00A334EB /* SceneDelegate.swift */,
+				2BDDDC11238333D100BC71F3 /* SecondView.swift */,
+				2BDDDC132383FED800BC71F3 /* ThirdView.swift */,
+				2BDDDC152384044800BC71F3 /* FourthView.swift */,
+				2B572100238475A700BA6067 /* FifthView.swift */,
 				2BDA568C237EA46C00A334EB /* ContentView.swift */,
 				2BDA568E237EA46D00A334EB /* Assets.xcassets */,
 				2BDA5693237EA46D00A334EB /* LaunchScreen.storyboard */,
@@ -147,7 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BDA5689237EA46C00A334EB /* AppDelegate.swift in Sources */,
+				2BDDDC142383FED800BC71F3 /* ThirdView.swift in Sources */,
 				2BDA568B237EA46C00A334EB /* SceneDelegate.swift in Sources */,
+				2BDDDC12238333D100BC71F3 /* SecondView.swift in Sources */,
+				2BDDDC162384044800BC71F3 /* FourthView.swift in Sources */,
+				2B572101238475A700BA6067 /* FifthView.swift in Sources */,
 				2BDA568D237EA46C00A334EB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

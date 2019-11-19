@@ -9,9 +9,17 @@
 import SwiftUI
 
 struct ThirdView: View {
+    
+    let myArray = ["James", "Lars", "Kirk", "Rob"]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
-    }
+        List (myArray, id: \.self) { element in
+            Image("Metallica_1").resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 30, height: 30)
+            Text(element).font(.largeTitle)
+        }
+            }
 }
 
 struct ThirdView_Previews: PreviewProvider {

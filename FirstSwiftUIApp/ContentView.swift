@@ -10,7 +10,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        VStack {
+            Text("Hello Anirup").padding()
+            
+            (Text("Hello SwiftUI").font(.largeTitle).foregroundColor(Color.blue).multilineTextAlignment(.center).padding(.top)).padding()
+        }
+        
     }
 }
 
